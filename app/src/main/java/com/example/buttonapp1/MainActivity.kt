@@ -6,18 +6,21 @@ import android.widget.TextView
 
  class MainActivity : AppCompatActivity() {
 
-     lateinit var myText: TextView
+//     lateinit var myText: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var myText = findViewById<TextView>(R.id.firstTV)
-        myText.text = "Home Sweet Home"
-        changText()
+
+//        var myText = findViewById<TextView>(R.id.firstTV)
+//        myText.text = "Home Sweet Home"
+//        changText()
     }
 
-     fun changText(){
-         myText.text = "Back"
-     }
+//     fun changText(){
+//         myText.text = "Back"
+//     }
 }
+
+//  I still work with it
